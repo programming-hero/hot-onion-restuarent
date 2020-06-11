@@ -1,0 +1,160 @@
+/* Header */
+.logo img{
+    width: 200px
+}
+.collapse .btn {
+    background-color: red;
+    border-radius: 30px;
+    width: 120px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.collapse ul li a {
+    color: #000000;
+}
+
+/* Banner Area */
+#banner-area{
+    height: 400px;
+    background-image: url('https://i.ibb.co/PZ19HzM/bannerbackground.png');
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    text-align: center;
+    margin-top: 120px;
+}
+.banner-search input{
+    width: 300px;
+    padding: 8px;
+    border-radius: 40px;
+    border: none;
+}
+.banner-search button {
+    border-radius: 40px;
+    padding: 8px;
+    width: 120px;
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    font-weight: 500;
+    position: absolute;
+    margin-left: -33px;
+}
+input[type='text']{
+    outline: none;
+}
+
+/* Main Content  */
+ul{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+ul li{
+    float: left;
+    padding: 10px 25px;
+
+}
+.nav-item a{
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-item a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    text-decoration: none;
+}
+.nav-item a.active{
+    color: red;
+    border-bottom: 1px solid red;
+    text-decoration: none;
+}
+.nav-item a.active {
+    background-color: gold;
+    color:Black ;
+    font-weight:bold;
+ }
+
+/* Home Food Items */
+.card{
+    width: 270px;
+    height: 300px;
+    border: none !important;
+}
+.card-body{
+    text-align: center;
+    line-height: 12px;
+}
+.card-body p{
+    font-size: 14px;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px 0px lightgray;
+}
+button{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+}
+/* blog Area  */
+.blog-card-text{
+    text-align: justify;
+    line-height: 20px;
+    padding: 30px;
+    margin-left: 30px;
+}
+.icons{
+    font-size: 20px;
+    color: rgb(47, 245, 47);
+}
+.iconsOne{
+    background-color: red;
+    color: #ffffff;
+    height:50px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    margin-left: 10px;
+}
+
+/* Footer Area  */
+#footerArea{
+    height: 200px;
+    background-color: #404040;
+}
+.footer{
+    margin-top: 20px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    display: block;
+    padding: 2px;
+}
+.footer-nav a:hover{
+    text-decoration: none;
+    color: red;
+}
+/* Copy Right Area  */
+#copyRight{
+    height: 60px;
+    background-color: rgb(117, 113, 113);
+    color: #ffffff;
+}
+#copyRight .footer-nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 13px;
+    display: inline;
+    padding: 10px;
+}
+#copyRight .footer-nav a:hover{
+    text-decoration: none;
+    color: red;
+}
