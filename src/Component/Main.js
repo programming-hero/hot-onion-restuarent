@@ -1,18 +1,17 @@
 import React from 'react';
 import './Style.css'
+import { NavLink } from 'react-router-dom';
 const Main = () => {
 
     return (
         <div className="container mt-5">
             <div className="row">
                 <div className="col-md-12 col-lg-12">
-                    <nav>
-                        <ul className="nav">
-                            <li className="nav-item"><a href="/breakfast" activeClassName="active">Breakfast</a></li>
-                            <li className="nav-item"><a href="/lunch" activeClassName="active">Lunch</a></li>
-                            <li className="nav-item"><a href="/dinner" activeClassName="active">Dinner</a></li>
-                        </ul>
-                    </nav>
+                    <ul className="nav">
+                        <li><NavLink to="/breakfast" exact activeClassName="active">Breakfast</NavLink></li>
+                        <li><NavLink to="/lunch" exact activeClassName="active">Lunch</NavLink></li>
+                        <li><NavLink to="dinner" exact activeClassName="active">Dinner</NavLink> </li>
+                    </ul>
                 </div>
             </div>
         </div>

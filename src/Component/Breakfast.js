@@ -1,5 +1,6 @@
 import React from 'react';
 import './Style.css'
+import { Link } from 'react-router-dom';
 
 const Breakfast = () => {
     return (
@@ -9,7 +10,7 @@ const Breakfast = () => {
                     <div className="card cad">
                         <img src=".." className="card-img-top" alt="breakfast food item"/>
                         <div className="card-body">
-                            <h5 className="card-title">Fried Chicken Bento</h5>
+                            <h5 className="card-title"><Link to="/cartItem">Fried Chicken Bento</Link></h5>
                             <p className="card-text">How we dream about your future</p>
                             <h5>$ 15.20</h5>
                         </div>

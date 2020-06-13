@@ -15,6 +15,7 @@ import Dinner from './Component/Dinner';
 import Blog from './Component/Blog';
 import Footer from './Component/Footer';
 import Copyright from './Component/Copyright';
+import CartItem from './Component/CartItem';
 
 function App() {
   return (
@@ -34,6 +35,9 @@ function App() {
           </Route>
           <Route path="/dinner">
             <Dinner></Dinner>
+          </Route>
+          <Route path="/cartItem">
+            <CartItem></CartItem>
           </Route>
         </Switch>
         <Blog></Blog>
