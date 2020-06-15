@@ -59,7 +59,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 23.99, 
-    img: 'https://i.ibb.co/BwwpH20/lunch1.png', 
+    img: 'https://i.ibb.co/3CHGZQj/dinner6.png', 
     categories: 'dinner', 
     id: '007'
 }, 
@@ -68,7 +68,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 9.99, 
-    img: '', 
+    img: 'https://i.ibb.co/WcwmPLT/dinner1.png', 
     categories: 'dinner', 
     id: '008'
 },
@@ -77,7 +77,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 4.99, 
-    img: '', 
+    img: 'https://i.ibb.co/Kq2wbDQ/dinner2.png', 
     categories: 'dinner', 
     id: '009'
 },
@@ -86,7 +86,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 8.99, 
-    img: '', 
+    img: 'https://i.ibb.co/BLbJFSc/dinner3.png', 
     categories: 'dinner', 
     id: '010'
 },
@@ -95,7 +95,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 3.99, 
-    img: '', 
+    img: 'https://i.ibb.co/wCzdBpB/dinner4.png', 
     categories: 'dinner', 
     id: '011'
 },
@@ -104,7 +104,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 2.99, 
-    img: '', 
+    img: 'https://i.ibb.co/hmTvVjL/dinner5.png', 
     categories: 'dinner', 
     id: '012'
 },
@@ -115,7 +115,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 26.50, 
-    img: '', 
+    img: 'https://i.ibb.co/x1DF7w2/breakfast6.png', 
     categories: 'breakfast', 
     id: '013'
 }, 
@@ -124,7 +124,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 1.99, 
-    img: '', 
+    img: 'https://i.ibb.co/2NPx5Yn/breakfast5.png', 
     categories: 'breakfast', 
     id: '014'
 },
@@ -133,7 +133,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 3.99, 
-    img: '', 
+    img: 'https://i.ibb.co/tp9HWJB/breakfast4.png', 
     categories: 'breakfast', 
     id: '015'
 },
@@ -142,7 +142,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 29.99, 
-    img: '', 
+    img: 'https://i.ibb.co/C5fGcGX/breakfast3.png', 
     categories: 'breakfast', 
     id: '016'
 },
@@ -151,7 +151,7 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 28.99, 
-    img: '', 
+    img: 'https://i.ibb.co/5kvNTg4/breakfast2.png', 
     categories: 'breakfast', 
     id: '017'
 },
@@ -160,33 +160,10 @@ const food = [
     title: 'How we dream about our future', 
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled',
     price: 25.99, 
-    img: '', 
+    img: 'https://i.ibb.co/VpCxStP/breakfast1.png', 
     categories: 'breakfast', 
     id: '018'
 },
 ]
-const choose = [
-    {
-        name: 'Fast Delivery', 
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, ', 
-        img: '', 
-        id: '019', 
-        icon: ''
-    }, 
-    {
-        name: 'A Good Auto Responder', 
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, ', 
-        img: '', 
-        id: '020', 
-        icon: ''
-    }, 
-    {
-        name: 'Home Delivery', 
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, ', 
-        img: '', 
-        id: '021',
-        icon: '' 
-    }
-]
-export {choose}; 
+ 
 export default food; 

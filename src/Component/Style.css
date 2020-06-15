@@ -129,7 +129,15 @@ button{
     left: 0;
     margin-left: 10px;
 }
-
+.card-img img{
+    width: 100%;
+}
+.blog-card-text img{
+    width: 50px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
 /* Footer Area  */
 #footerArea{
     height: 200px;

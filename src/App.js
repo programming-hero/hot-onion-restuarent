@@ -30,7 +30,7 @@ function App() {
           <Route path="/lunch">
             <Lunch></Lunch>
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <Lunch></Lunch>
           </Route>
           <Route path="/dinner">
