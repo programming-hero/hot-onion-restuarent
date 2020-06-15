@@ -5,18 +5,18 @@ import { faMinus } from '@fortawesome/free-solid-svg-icons'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import { useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const CartItem = (props) => {
 
-   const {id}= useParams(); 
-
+    const {id} = useParams();
 
     return (
         <div className="container mt-5 mb-5">
             <div className="row">
                 <div className="col-md-6">
                     <div className="itemContent">
-                        <h3>Light Breakfast</h3>
+                    <h3>Breakfast Item</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet eius porro veniam repudiandae totam quibusdam voluptatibus maiores quo in aperiam.</p>
                        <div className="cartAdd">
                        <h5>$ 55.00 <span className="cartAdd"><FontAwesomeIcon icon={faMinus} />  <input type="text" value="1"/>  <FontAwesomeIcon icon={faPlus} /></span></h5>

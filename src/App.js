@@ -36,7 +36,7 @@ function App() {
           <Route path="/dinner">
             <Dinner></Dinner>
           </Route>
-          <Route path="/cartItem">
+          <Route path="/cartItem/:id">
             <CartItem></CartItem>
           </Route>
         </Switch>

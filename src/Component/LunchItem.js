@@ -15,7 +15,9 @@ const LunchItem = (props) => {
                     {/* <Link to="/cartItem"> {name}</Link> */}
                     {/* <Link to={`/cartItem/${id}`}> {name}</Link> */}
 
-                    <Link to={`/cartItem/${id}`}> {name} </Link>
+                    <Link to={`cartItem/${id}`}> {name} </Link>
+
+                    
 
 
                     </h5>
