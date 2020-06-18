@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Style.css';
-import CartItem from '../Component/CartItem';
 
 const LunchItem = (props) => {
     const {name, title, price, img, id} = props.pd; 
@@ -16,9 +15,7 @@ const LunchItem = (props) => {
                     {/* <Link to={`/cartItem/${id}`}> {name}</Link> */}
 
                     <Link to={`cartItem/${id}`}> {name} </Link>
-
-                    
-
+                   
 
                     </h5>
                 <p className="card-text">{title}</p>

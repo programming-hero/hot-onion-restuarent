@@ -203,3 +203,80 @@ button{
 .featuredImg {
     display: flex;
 }
+.featuredImg img{
+    width: 70%;
+    margin: 0 auto;
+}
+.cat-img img{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.itemContent {
+    text-align: justify;
+}
+
+/* form  */
+form span{
+    color: red;
+}
+form input{
+    margin-top: 20px;
+    display: flex;
+    
+}
+input.form-control {
+    width: 400px;
+    background-color: 	#E8E8E8;
+}
+
+input.form-control.submit {
+    background-color: red; 
+    color: #ffffff;
+    font-weight: 500;
+}
+hr{
+    width: 400px;
+    margin-left: 0px;
+}
+
+/* cart item  */
+
+.addText{
+    line-height: 10px;
+}
+.cart-item{
+    display: flex;
+    background-color: #E8E8E8;
+    border-radius: 10px;
+    padding: 20px;
+}
+.cart-text{
+    line-height: 10px;
+    margin-left: 20px;
+}
+.cart-text h5{
+    color: red;
+}
+.cart-qty{
+    margin-left: 50px;
+}
+.cart-qty input{
+    width: 30px;
+}
+.totalValue{
+    display: flex;
+    padding: 20px;
+}
+.figure{
+    text-align: right;
+    margin: auto;
+    margin-left: 150px;
+}
+.cart-main button{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #E8E8E8;
+    font-weight: 500;
+    color: #504d4d;
+}

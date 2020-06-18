@@ -5,7 +5,7 @@ import { useState } from 'react';
 import DinnerItem from './DinnerItem';
 
 const Dinner = () => {
-    const dinner = Data.slice(6,12); 
+    const dinner = Data.filter(f=> f.categories === 'dinner')
     const [item, setItem] = useState(dinner); 
     console.log(item);
     return (

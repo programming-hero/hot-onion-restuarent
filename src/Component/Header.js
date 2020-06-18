@@ -7,7 +7,7 @@ import Logo from '../logo2.png';
 const Header = () => {
     return (
         <div className="container">
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg sticky">
                 <a href="/" className="navbar-brand logo">
                     <img src={Logo} alt=""/>
                 </a>
@@ -17,7 +17,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/"><FontAwesomeIcon icon={faShoppingCart} /></a>
+                            <a className="nav-link" href="/cart"><FontAwesomeIcon icon={faShoppingCart} /></a>
                         </li>
                         <li className="nav-item ml-4">
                             <a className="nav-link" href="/">Login</a>

@@ -16,14 +16,18 @@ import Blog from './Component/Blog';
 import Footer from './Component/Footer';
 import Copyright from './Component/Copyright';
 import CartItem from './Component/CartItem';
-
+import Cart from './Component/Cart';
+import CartContextProvider from './Component/CartContext';
 function App() {
+  
+
   return (
     <Router>
       <Header></Header>
       <Banner></Banner>
       <Main></Main>
         <Switch>
+          <CartContextProvider>
           <Route path="/breakfast">
             <Breakfast></Breakfast>
           </Route>
@@ -39,6 +43,10 @@ function App() {
           <Route path="/cartItem/:id">
             <CartItem></CartItem>
           </Route>
+          <Route path="/cart">
+            <Cart></Cart>
+          </Route>
+          </CartContextProvider>
         </Switch>
         <Blog></Blog>
         <Footer></Footer>

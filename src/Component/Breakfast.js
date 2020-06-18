@@ -5,7 +5,7 @@ import { useState } from 'react';
 import BreakfastItem from './BreakfastItem';
 
 const Breakfast = () => {
-    const breakfast = Data.slice(12,18); 
+    const breakfast = Data.filter(f => f.categories === 'breakfast')
     const [item, setItem] = useState(breakfast); 
     return (
         <div className="container">
