@@ -27,7 +27,7 @@ function App() {
       <Banner></Banner>
       <Main></Main>
         <Switch>
-          <CartContextProvider>
+          
           <Route path="/breakfast">
             <Breakfast></Breakfast>
           </Route>
@@ -40,6 +40,7 @@ function App() {
           <Route path="/dinner">
             <Dinner></Dinner>
           </Route>
+          <CartContextProvider>
           <Route path="/cartItem/:id">
             <CartItem></CartItem>
           </Route>

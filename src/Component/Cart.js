@@ -1,11 +1,12 @@
 import React from 'react';
 import { useForm} from "react-hook-form";
 import './Style.css';
-import food from  '../Data/Data';
 import {CartContext} from './CartContext'; 
 import { useContext } from 'react';
 
 const Cart = (props) => {
+
+
 
 const data = useContext (CartContext); 
 console.log(data); 

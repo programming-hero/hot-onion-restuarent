@@ -13,12 +13,10 @@ const CartItem = (props) => {
 
     const {id} = useParams()
     const theFood = food.find(f=> f.id == id) ;
-    const {img, name, price, description,} = theFood; 
+    const {img, name, price, description} = theFood; 
     const [count, setCount] = useState(0); 
 
-    const {dispatch} = useContext(CartContext); 
-
-    console.log(theFood.id); 
+    const {dispatch} = useContext(CartContext);
 
     return (
         <div className="container mt-5 mb-5">
@@ -30,7 +28,7 @@ const CartItem = (props) => {
                        <div className="cartAdd">
                        <h5>$ {price}
                        <span className="cartAdd"><FontAwesomeIcon onClick={()=> setCount(count - 1)}  icon={faMinus} />  
-                       <input type="text" id='addQty' defaultValue='1' value={count}/>  
+                       <input type="text" id='addQty' value={count}/>  
                        <FontAwesomeIcon onClick={()=> setCount(count+1)} icon={faPlus} />
                        </span>
                        </h5>
