@@ -6,10 +6,10 @@ export const CartContext = createContext();
 
 const CartContextProvider = (props) => {
 
-    const [cart, dispatch] = useReducer(CartReducer, {shoppingCart: [ ], totalPrice: 0, qty: 0 }); 
-
+    const [cart, dispatch] = useReducer(CartReducer, {shoppingCart: [ ], totalPrice: 0, qty: 1 }); 
+    console.log("props",cart);
     return (
-        <CartContext.Provider value={{...cart, dispatch}}>
+        <CartContext.Provider value={{cart: cart, dispatch: dispatch}}>
             {props.children}
         </CartContext.Provider>
     );

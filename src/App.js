@@ -19,15 +19,17 @@ import CartItem from './Component/CartItem';
 import Cart from './Component/Cart';
 import CartContextProvider from './Component/CartContext';
 function App() {
-  
+
 
   return (
-    <Router>
-      <Header></Header>
-      <Banner></Banner>
-      <Main></Main>
+    <CartContextProvider>
+      <Router>
+        <Header></Header>
+        <Banner></Banner>
+        <Main></Main>
+
         <Switch>
-          
+
           <Route path="/breakfast">
             <Breakfast></Breakfast>
           </Route>
@@ -40,19 +42,20 @@ function App() {
           <Route path="/dinner">
             <Dinner></Dinner>
           </Route>
-          <CartContextProvider>
+
           <Route path="/cartItem/:id">
             <CartItem></CartItem>
           </Route>
           <Route path="/cart">
             <Cart></Cart>
           </Route>
-          </CartContextProvider>
+
         </Switch>
         <Blog></Blog>
         <Footer></Footer>
         <Copyright></Copyright>
-    </Router>
+      </Router>
+    </CartContextProvider>
   );
 }
 

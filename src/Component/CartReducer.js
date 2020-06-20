@@ -1,5 +1,5 @@
 export const CartReducer = (state, action) => {
-    const {shoppingCart, totalPrice, qty} = state; 
+    
     let theFood;
     let updatePrice; 
     let updatedQty;
@@ -7,19 +7,22 @@ export const CartReducer = (state, action) => {
     switch(action.type){
 
         case 'ADD_TO_CART':
-            const check = shoppingCart.find(food => food.id === action.id); 
-           
-            if(check){
-                return state; 
-            } else{
+            if(state) {
+                const {shoppingCart, totalPrice, qty} = state; 
+                const check = shoppingCart.find(food => food.id === action.id); 
                 theFood = action.theFood;
-                console.log(theFood); 
-                theFood['qty'] = 1; 
-                updatedQty = qty + 1; 
-                updatePrice = totalPrice + theFood.price; 
-                return {shoppingCart : [theFood, ...shoppingCart], totalPrice: updatePrice, qty: updatedQty}
+                if(check){
+                    const newQty = qty + 1;
+                    const newPrice = qty * theFood.price
+                    return {shoppingCart: [theFood], totalPrice: newPrice, qty: newQty}; 
+                } else{
+   
+                    theFood['qty'] = 1; 
+                    updatedQty = qty + 1; 
+                    updatePrice = totalPrice + theFood.price; 
+                    return {shoppingCart : [theFood, ...shoppingCart], totalPrice: updatePrice, qty: updatedQty}
+                }
             }
-            break; 
             default: 
             return state; 
     }

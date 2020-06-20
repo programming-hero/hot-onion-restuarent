@@ -15,8 +15,8 @@ const CartItem = (props) => {
     const theFood = food.find(f=> f.id == id) ;
     const {img, name, price, description} = theFood; 
     const [count, setCount] = useState(0); 
-
     const {dispatch} = useContext(CartContext);
+  
 
     return (
         <div className="container mt-5 mb-5">
